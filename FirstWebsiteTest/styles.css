@@ -1,3 +1,37 @@
-﻿body{font-family: Verdana, Geneva, Tahoma, sans-serif;}
-h1{color: dodgerblue;backgroud-color:black;}
-h6{color: dodgerblue;}
+﻿*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Verdana, Georgia, serif;
+    background-color: #f0f0f0;
+}
+
+h1{
+    color: dodgerblue;
+    background-color: black;
+
+}
+h6{
+    color: dodgerblue;
+}
+
+#list{
+    font-style: italic;
+    background-color: lightgray;
+}
+
+.color{
+    color: lightgray;
+    background-color: gray;
+    margin: 4px;
+    padding: 4px;
+}
+.compteur{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px;
+}
